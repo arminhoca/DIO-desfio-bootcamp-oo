@@ -17,10 +17,20 @@ public class Main {
         curso2.setDescricao("descrição curso js");
         curso2.setCargaHoraria(4);
 
+        Curso curso3 = new Curso();
+        curso3.setTitulo("curso orientacao a objeto");
+        curso3.setDescricao("descrição curso oo");
+        curso3.setCargaHoraria(3);
+
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição mentoria java");
         mentoria.setData(LocalDate.now());
+
+        Mentoria mentoria2 = new Mentoria();
+        mentoria2.setTitulo("mentoria aplicacao da oo");
+        mentoria2.setDescricao("descrição mentoria oo");
+        mentoria2.setData(LocalDate.now());
 
         /*System.out.println(curso1);
         System.out.println(curso2);
